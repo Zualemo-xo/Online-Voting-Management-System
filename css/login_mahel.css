@@ -1,0 +1,61 @@
+header{
+  background-color:coral;
+    width: 1470px;
+  height: 150px;
+  /* 250 px initially */
+
+}
+body{
+   font: 20px sans-serif;
+   background-color: white;
+    /* style:margin-left; */
+
+}
+
+  .form
+  {
+    background-color:white;
+  }
+  .wrapper{
+    /* background-color: white; */
+    /*background-image: url(../Emblempic.jpg);*/
+    background-size:cover;
+    width: 400px;
+    padding: 20px;
+    color:darkblue;}
+  }
+  .footer{
+    height:80px;
+    background: darkgreen;
+  }
+
+
+ul{
+  float:right;
+  list-style-type: decimal;
+  /* margin-top:25px; */
+
+}
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+  text-decoration:none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  /* border-color: red; */
+
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+
+}
